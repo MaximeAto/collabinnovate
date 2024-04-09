@@ -1,0 +1,101 @@
+:root {
+  --background: #005;
+  --primary: #88d5bf;
+  --secondary: #5d6bf8;
+  --third: #e27fcb;
+}
+
+
+.nav img {
+  width: 6em;
+  padding: 20px;
+}
+
+.head{
+  background-image: url(/assets/img/bg.jpg);
+  background-size: cover;
+
+}
+
+.head .headSection1 {
+  padding-top: 13em;
+  padding-left: 4em;
+  margin-right: 2em;
+  width: 130em;
+}
+
+.head .headSection2 {
+  width: 120em;
+  height: 46.9em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.head .container h1 {
+  font-size: 4.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+h4 a{
+  color: gray;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+
+h4 a:hover{
+  color: white;
+}
+
+.textanimation{
+  color: #ffc107;
+}
+.head .container p {
+  text-align: justify;
+  color: rgb(173, 173, 173);
+}
+.head .container button {
+  background-color: #02a605;
+  color: white;
+}
+
+
+
+.footer {
+  background-color: #02a605;
+  color: white;
+  padding: 50px 0;
+}
+
+.footer h5 {
+  color: rgb(57, 57, 57);
+}
+
+.footer p {
+  color: rgb(57, 57, 57);
+}
+
+.footer a {
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+
+
+
