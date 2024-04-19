@@ -1,0 +1,178 @@
+<div
+  class="horizontal-layout horizontal-menu horizontal-menu-padding 2-columns"
+  data-open="click"
+  data-menu="horizontal-menu"
+  data-col="2-columns"
+>
+  <app-header></app-header>
+
+  <!-- BEGIN: Content-->
+  <div class="app-content container center-layout mt-2">
+    <div class="content-overlay"></div>
+    <div class="content-wrapper">
+      <div class="content-header row">
+        <div class="content-header-left col-md-6 col-12 mb-2">
+          <h1 style="color: #000723;" class="content-header-title mb-0">Pose a problem</h1>
+        </div>
+        <div class="content-header-right col-md-6 col-12">
+          <div
+            class="btn-group float-md-right"
+            role="group"
+            aria-label="Button group with nested dropdown"
+          >
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="card-bootstrap.html">Cards</a
+              ><a class="dropdown-item" href="component-buttons-extended.html"
+                >Buttons</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-body">
+        <!-- Basic form layout section start -->
+        <section id="basic-form-layouts">
+          <div class="row match-height">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-content collapse show">
+                  <div class="card-body">
+                    <form class="form">
+                      <div class="form-body">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="projectinput1">Problem title</label>
+                              <input
+                                type="text"
+                                id="projectinput1"
+                                class="form-control border-primary"
+                                placeholder="Problem title"
+                                name="fname"
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="projectinput8">About Problem</label>
+                          <textarea
+                            id="projectinput8"
+                            rows="11"
+                            class="form-control border-primary"
+                            name="comment"
+                            placeholder="About Problem"
+                          ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                          <div>
+                            <label>Attachments</label>
+                          </div>
+                          <label id="projectinput7" class="file center-block">
+                            <input type="file" id="file" />
+                            <span class="file-custom"></span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="form-actions">
+                        <button type="button" class="btn btn-outline-warning mr-1">
+                          <i class="ft-x"></i> Cancel
+                        </button>
+                        <button type="submit" class="btn" style="background-color: #000723; color: white;">
+                          <i class="la la-check-square-o"></i> Save
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-content collapse show">
+                  <div class="card-body">
+                    <form class="form">
+                      <div class="form-body">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="userinput1">Business needs improvement</label>
+                              <input
+                                type="text"
+                                id="userinput1"
+                                class="form-control border-primary border-primary"
+                                placeholder="Add business needs improvement"
+                                name="name"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="userinput3">Population affected(Quality)</label>
+                              <input
+                                type="text"
+                                id="userinput3"
+                                class="form-control border-primary border-primary"
+                                placeholder="Add population affected"
+                                name="population"
+                              />
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="form-group">
+                          <label for="userinput5">Concerns Population affected</label>
+                          <textarea
+                          id="userinput8"
+                          rows="5"
+                          class="form-control border-primary border-primary"
+                          name="bio"
+                          placeholder="Add concerns Population affected"
+                        ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="userinput6">Impacts on these populations</label>
+                          <input
+                            class="form-control border-primary border-primary"
+                            type="textt"
+                            placeholder="Add impacts"
+                            id="userinput6"
+                          />
+                        </div>
+
+                        <div class="form-group">
+                          <label>Population volume</label>
+                          <input
+                            class="form-control border-primary border-primary"
+                            id="userinput7"
+                            type="text"
+                            placeholder="Contact Number"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- // Basic form layout section end -->
+      </div>
+    </div>
+  </div>
+  <!-- END: Content-->
+
+  <div class="sidenav-overlay"></div>
+  <div class="drag-target"></div>
+
+  <app-footer></app-footer>
+
+</div>

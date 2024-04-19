@@ -4,6 +4,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { AddproblemComponent } from './pages/addproblem/addproblem.component';
+import { SubmitsolutionComponent } from './pages/submitsolution/submitsolution.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -11,6 +13,8 @@ const routes: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent},
   { path: 'dashboard', component: DashboardComponent},
+  { path: 'addproblem', component: AddproblemComponent},
+  { path: 'submitsolution', component: SubmitsolutionComponent},
   { path: '**', redirectTo: '' } // Redirection vers la page d'accueil si l'URL est invalide
 ];
 @NgModule({

@@ -10,6 +10,10 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FooterComponent } from './bloc/footer/footer.component';
+import { HeaderComponent } from './bloc/header/header.component';
+import { AddproblemComponent } from './pages/addproblem/addproblem.component';
+import { SubmitsolutionComponent } from './pages/submitsolution/submitsolution.component';
 
 
 // primeng
@@ -22,6 +26,10 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     SigninComponent,
     SignupComponent,
     DashboardComponent,
+    FooterComponent,
+    HeaderComponent,
+    AddproblemComponent,
+    SubmitsolutionComponent,
   ],
   imports: [
     BrowserModule,

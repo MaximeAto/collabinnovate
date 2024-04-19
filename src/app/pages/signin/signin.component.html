@@ -1,8 +1,5 @@
 <div class="d-lg-flex half">
-  <div
-    class="bg order-1 order-md-2"
-    
-  >
+  <div class="bg order-1 order-md-2">
     <div
       style="
         display: flex;
@@ -12,7 +9,12 @@
       "
     >
       <div class="logo">
-        <img routerLink="/home" style="width: 20em; cursor: pointer;"  src="/assets/img/logo.png" alt="logo" />
+        <img
+          routerLink="/home"
+          style="width: 20em; cursor: pointer"
+          src="/assets/img/logo.png"
+          alt="logo"
+        />
       </div>
       <div>
         <h1 style="color: white; font-size: 4em; font-weight: bold">
@@ -23,7 +25,9 @@
         <p>Don't have an account ?</p>
       </div>
       <div>
-        <button class="btn btn-outline-light" routerLink="/signup">Sign up</button>
+        <button class="btn btn-outline-light" routerLink="/signup">
+          Sign up
+        </button>
       </div>
     </div>
   </div>
@@ -42,25 +46,27 @@
                 <input
                   type="text"
                   class="form-control mb-3"
-                  style="border-radius: 10px;"
+                  style="border-radius: 10px"
                   placeholder="your-email@gmail.com"
                   id="username"
                 />
               </div>
-              
             </div>
             <div class="form-group last mb-3">
               <label class="pb-3" for="password">Password</label>
               <input
                 type="password"
                 class="form-control"
-                style="border-radius: 10px;"
+                style="border-radius: 10px"
                 placeholder="Your Password"
                 id="password"
               />
             </div>
 
-            <div class="d-flex mb-5 align-items-center" style="display: flex; justify-content: space-between;">
+            <div
+              class="d-flex mb-5 align-items-center"
+              style="display: flex; justify-content: space-between"
+            >
               <label class="control control--checkbox mb-0"
                 ><span class="caption">Remember me</span>
                 <input type="checkbox" checked="checked" />
@@ -72,10 +78,11 @@
             </div>
 
             <input
+              routerLink="/submitsolution"
               type="submit"
               value="Log In"
               class="btn btn-block"
-              style="background-color: #000723; color: white; width: 100%;"
+              style="background-color: #000723; color: white; width: 100%"
             />
           </form>
         </div>
