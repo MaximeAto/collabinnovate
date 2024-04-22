@@ -33,6 +33,10 @@
               "node_modules/slick-carousel/slick/slick-theme.scss"
             ],
             "scripts": [
+              "src/assets/app-assets/vendors/js/vendors.min.js",
+              "src/assets/app-assets/vendors/js/ui/jquery.sticky.js",
+              "src/assets/app-assets/js/core/app-menu.js",
+              "src/assets/app-assets/js/core/app.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/slick-carousel/slick/slick.min.js"
