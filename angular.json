@@ -37,9 +37,14 @@
               "src/assets/app-assets/vendors/js/ui/jquery.sticky.js",
               "src/assets/app-assets/js/core/app-menu.js",
               "src/assets/app-assets/js/core/app.js",
+              "src/assets/app-assets/vendors/js/forms/select/select2.full.min.js",
+              "src/assets/app-assets/js/scripts/forms/select/form-select2.js",
+              "src/assets/app-assets/vendors/js/extensions/jquery.raty.js",
+              "src/assets/app-assets/js/scripts/pages/app-contacts.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/slick-carousel/slick/slick.min.js"
+             
             ]
           },
           "configurations": {

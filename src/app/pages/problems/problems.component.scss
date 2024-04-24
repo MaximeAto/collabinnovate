@@ -1,0 +1,13 @@
+@import "src/assets/app-assets/vendors/css/vendors.min.css";
+@import "src/assets/app-assets/css/bootstrap.css";
+@import "src/assets/app-assets/css/bootstrap-extended.css";
+@import "src/assets/app-assets/css/colors.css";
+@import "src/assets/app-assets/css/components.css";
+@import "src/assets/app-assets/css/core/menu/menu-types/horizontal-menu.css";
+@import "src/assets/app-assets/css/core/colors/palette-gradient.css";
+
+@import "src/assets/app-assets/css/plugins/forms/selectivity/selectivity.css";
+
+.list-group .active {
+  background: #000723;
+}

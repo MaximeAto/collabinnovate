@@ -14,6 +14,7 @@ import { FooterComponent } from './bloc/footer/footer.component';
 import { HeaderComponent } from './bloc/header/header.component';
 import { AddproblemComponent } from './pages/addproblem/addproblem.component';
 import { SubmitsolutionComponent } from './pages/submitsolution/submitsolution.component';
+import { ProblemsComponent } from './pages/problems/problems.component';
 
 
 // primeng
@@ -30,6 +31,7 @@ import { SubmitsolutionComponent } from './pages/submitsolution/submitsolution.c
     HeaderComponent,
     AddproblemComponent,
     SubmitsolutionComponent,
+    ProblemsComponent,
   ],
   imports: [
     BrowserModule,
